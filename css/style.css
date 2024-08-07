@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: "Mulish", sans-serif;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img {
+    width: 160px;
+    padding-left: 35px;
+    padding-top: 15px;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    color: #88858d;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+a:hover {
+    color: #1F1534;
+    transition: 0.3s all;
+}
+
+main {
+    width: 100%;
+    height: 580px;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    padding-top: 90px;
+    padding-left: 50px;
+}
+
+.align-home {
+    display: flex;
+}
+
+.home h1 {
+    line-height: 60px;
+    padding-top: 20px;
+    width: 600px;
+    font-size: 44px;
+    font-weight: 700;
+}
+
+h2 {
+    width: 580px;
+    color: #949496;
+    font-size: 21px;
+    font-weight: 600;
+    padding-top: 25px;
+}
+
+.img-home img {
+    width: 520px;
+    height: 520px;
+    padding-right: 60px;
+}
+
+.ball img {
+    width: 60px;
+    padding-top: 30px;
+}
+
+.home button {
+    margin-top: 40px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #458FF6;
+    border: none;
+    border-radius: 30px;
+    width: 200px;
+    height: 55px;
+}
