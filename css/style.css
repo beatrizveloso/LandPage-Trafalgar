@@ -10,6 +10,8 @@ body {
     width: 100%;
     font-family: "Mulish", sans-serif;
     margin: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -75,7 +77,7 @@ h2 {
 }
 
 .img-home img {
-    width: 520px;
+    width: 500px;
     height: 520px;
     padding-right: 60px;
 }
@@ -95,4 +97,93 @@ h2 {
     border-radius: 30px;
     width: 200px;
     height: 55px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+}
+
+.text h1 {
+    font-size: 36px;
+    font-weight: 700px;
+}
+
+.retangle-black {
+    background-color: black;
+    width: 56px;
+    height: 2px;
+    margin-top: 20px;
+}
+
+.text p {
+    font-size: 18px;
+    font-weight: 400px;
+    color: #7D7987;
+    padding-top: 30px;
+}
+
+.section-cards {
+    height: 800px;
+    background-image: url(/img/bg\ element.svg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5,
+.card-6 {
+    width: 330px;
+    height: 334px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-top: 40px;
+    box-shadow: 10px 10px 5px 8px rgb(250, 250, 250);
+}
+
+.card-1 img,
+.card-2 img,
+.card-3 img,
+.card-4 img,
+.card-5 img,
+.card-6 img {
+    width: 60px;
+}
+
+.column-cards-1,
+.column-cards-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-1 h1,
+.card-2 h1,
+.card-3 h1,
+.card-4 h1,
+.card-5 h1,
+.card-6 h1{
+    padding-top: 20px;
+    font-size: 24px;
+}
+
+.card-1 p,
+.card-2 p,
+.card-3 p,
+.card-4 p,
+.card-5 p,
+.card-6 p{
+    font-size: 16px;
+    color: #7D7987;
+    padding-top: 20px;
 }
