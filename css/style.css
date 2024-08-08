@@ -49,7 +49,9 @@ main {
     height: 580px;
 }
 
-.home {
+.home,
+.home-1,
+.hom1-2{
     display: flex;
     flex-direction: column;
     padding-top: 90px;
@@ -60,7 +62,9 @@ main {
     display: flex;
 }
 
-.home h1 {
+.home h1,
+.home-1 h1,
+.home-2 h1{
     line-height: 60px;
     padding-top: 20px;
     width: 600px;
@@ -76,7 +80,7 @@ h2 {
     padding-top: 25px;
 }
 
-.img-home img {
+.img-home img{
     width: 500px;
     height: 520px;
     padding-right: 60px;
@@ -206,3 +210,38 @@ h2 {
     width: 200px;
     height: 55px;
 }
+
+.ilusta-1,
+.ilusta-2 {
+width: 100%;
+height: 600px;
+margin-top: 30px;
+display: flex;
+justify-content: space-around;
+}
+
+.button-ilustra button,
+.button-ilustra2 button {
+    margin-top: 40px;
+    color: #458FF6;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: transparent;
+    border: 3px 3px 3px 3px;
+    border-color: #458FF6;
+    border-radius: 30px;
+    width: 200px;
+    height: 55px;
+}
+
+.button-ilustra2 img {
+    width: 10px;
+}
+
+.img-home2 img,
+.img-home3 img {
+    width: 560px;
+    height: 450px;
+}
+
+
