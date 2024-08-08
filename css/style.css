@@ -128,7 +128,7 @@ h2 {
 }
 
 .section-cards {
-    height: 800px;
+    height: 900px;
     background-image: url(/img/bg\ element.svg);
     display: flex;
     flex-direction: column;
@@ -186,4 +186,23 @@ h2 {
     font-size: 16px;
     color: #7D7987;
     padding-top: 20px;
+}
+
+.button-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-cards button {
+    margin-top: 40px;
+    color: #458FF6;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: transparent;
+    border: 3px 3px 3px 3px;
+    border-color: #458FF6;
+    border-radius: 30px;
+    width: 200px;
+    height: 55px;
 }
