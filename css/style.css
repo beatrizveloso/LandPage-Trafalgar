@@ -401,3 +401,33 @@ justify-content: space-around;
     display: flex;
     justify-content: space-between;
 }
+
+footer {
+    width: 100%;
+    height: 425px;
+    background: linear-gradient(#67C3F3, #5A98F2);
+}
+
+.align-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p {
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    padding-top: 20px;
+}
+
+footer h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    padding-top: 20px;
+}
+
+.column-1 img {
+    width: 200px;
+}
