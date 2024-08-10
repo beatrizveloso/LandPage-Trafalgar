@@ -28,17 +28,23 @@ header {
     padding-top: 15px;
 }
 
-li {
+a {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #4F5665;
+    text-decoration: none;
+}
+
+nav {
     display: inline-block;
     margin: 20px;
-}
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+  }
 
-a {
-    color: #88858d;
-    font-weight: 600;
-    font-size: 16px;
-}
-
+  
 a:hover {
     color: #1F1534;
     transition: 0.3s all;
@@ -54,7 +60,7 @@ main {
 .hom1-2{
     display: flex;
     flex-direction: column;
-    padding-top: 90px;
+    padding-top: 70px;
     padding-left: 50px;
 }
 
@@ -102,16 +108,16 @@ h2 {
     height: 55px;
 }
 
-.text {
+.our-services {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 300px;
+    height: 240px;
 }
 
-.text h1 {
+.our-services h1 {
     font-size: 36px;
     font-weight: 700px;
 }
@@ -130,7 +136,7 @@ h2 {
     margin-top: 20px;
 }
 
-.text p {
+.our-services p {
     font-size: 18px;
     font-weight: 400px;
     color: #7D7987;
@@ -140,6 +146,7 @@ h2 {
 .section-cards {
     height: 900px;
     background-image: url(/img/bg\ element.svg);
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -337,6 +344,7 @@ align-items: center;
     width: 100%;
     height: 800px;
     background-image: url(/img/bg\ element.svg);
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -412,6 +420,7 @@ footer {
 }
 
 .align-footer {
+    padding-top: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -433,4 +442,8 @@ footer h1 {
 
 .column-1 img {
     width: 200px;
+}
+
+footer img {
+    padding-top: 40px;
 }
